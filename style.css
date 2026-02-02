@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px 25px;
+  margin: 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background: white;
+  color: black;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 260px;
+  margin-top: 20px;
+}
